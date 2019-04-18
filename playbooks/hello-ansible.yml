@@ -1,0 +1,30 @@
+---
+- name: minha primeira playbook do Ansible
+  hosts: all
+  become: yes
+  tasks:
+  - name: garantindo a presença do VIM
+    package:
+      name: vim
+      state: present
+  - name: Cadastrando o parakskskss Yoganana
+    user:
+      state: present
+      name: rogeria
+      shell: /bin/sh
+      password: '$1$z9ynk/Al$uwu0h0R/e/tsZi6S0aE5n0' 
+
+  - package:
+      name: ['wget','curl','telnet','sysstat']
+      state: present
+
+  - package:
+      name: httpd
+      state: present
+    when: ansible_distribution == 'CentOS' 
+
+  - package:
+      name: apache2
+      state: present
+    when: ansible_distribution != 'CentOS'
+...

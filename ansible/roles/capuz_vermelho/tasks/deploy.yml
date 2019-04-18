@@ -1,0 +1,9 @@
+- name: pagina HTML
+  template:
+    src: index.html
+    dest: /var/www/html/index.html
+
+- name:
+  get_url:
+    url: https://summerluk1024.files.wordpress.com/2012/12/secret-life-of-woody-toy-story-20.jpg
+    dest: /var/www/html/imagem.jpg

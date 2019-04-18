@@ -1,0 +1,346 @@
+    1  ls
+    2  ll
+    3  cd /
+    4  cd home
+    5  cd ubuntu
+    6  ls
+    7  cd /
+    8  cd etc/hosts
+    9  cd etc
+   10  ls
+   11  cd ansible
+   12  vim hosts
+   13  ls
+   14  cd /
+   15  ls
+   16  cd etc
+   17  cd ansible
+   18  ls
+   19  ansible all -m ping
+   20  ssh 192.168.99.10
+   21  ssh 192.168.99.20
+   22  ssh 192.168.99.30
+   23  ssh 192.168.99.10
+   24  ssh 192.168.99.20
+   25  ansible all -m ping
+   26  ansible all -m package -a 'name=vim state=present'
+   27  vim teste.txt
+   28  pwd
+   29  mkdir playbooks
+   30  ls
+   31  cd playbooks
+   32  vim hello-ansible.yml
+   33  ansible-playbook
+   34  ansible-playbook hello-ansible.yml
+   35  vim hello-ansible.yml
+   36  openssl passwd -1
+   37  vim hello-ansible.yml
+   38  ansible-playbook hello-ansible.yml
+   39  vim hello-ansible.yml
+   40  ansible-playbook hello-ansible.yml
+   41  telnet 192.168.99.30 22
+   42  vim hello-ansible.yml
+   43  ansible-playbook hello-ansible.yml
+   44  vim hello-ansible.yml
+   45  ansible-playbook hello-ansible.yml
+   46  vim hello-ansible.yml
+   47  ansible-playbook hello-ansible.yml
+   48  vim hello-ansible.yml
+   49  ansible-playbook hello-ansible.yml
+   50  vim hello-ansible.yml
+   51  ansible-playbook hello-ansible.yml
+   52  ansible 127.0.0.1 -m setup
+   53  ansible 127.0.0.1 -m setup | grep distribution
+   54  vim hello-ansible.yml
+   55  ansible-playbook hello-ansible.yml
+   56  vim hello-ansible.yml
+   57  ansible-playbook hello-ansible.yml
+   58  apache --version
+   59  apache2 --version
+   60  httpd --version
+   61  vim when.yml
+   62  ansible-playbook when.yml
+   63  vim when.yml
+   64  vim hello-ansible.yml
+   65  vim when.yml
+   66  ansible-playbook when.yml
+   67  vim when.yml
+   68  vim hello-ansible.yml
+   69  vim when.yml
+   70  ansible-playbook when.yml
+   71  vim hello-ansible.yml
+   72  vim when.yml
+   73  ansible-playbook when.yml
+   74  vim when.yml
+   75  ansible-playbook when.yml
+   76  ansible devops -m ping
+   77  sl
+   78  /usr/games/sl
+   79  ls
+   80  sl
+   81  echp $PATCH
+   82  echp $PATH
+   83  echo $PATH
+   84  sl
+   85  echo $PATH
+   86  /usr/games/sl -F
+   87  vim when.yml
+   88  ls /root/.bashrc
+   89  vim /root/.bashrc
+   90  vim when.yml
+   91  vim /root/.bashrc
+   92  ansible-playbook when.yml
+   93  vim /root/.bashrc
+   94  cd ..
+   95  ansible-playbook robin.yml 
+   96  vim robin.yml 
+   97  ansible-playbook robin.yml 
+   98  vim robin.yml 
+   99  ansible-playbook robin.yml 
+  100  vim robin.yml 
+  101  ansible-playbook robin.yml 
+  102  vim robin.yml 
+  103  ansible-playbook robin.yml 
+  104  vim robin.yml 
+  105  ls
+  106  cp robin.yml robin.yml-bkp
+  107  ls
+  108  > robin.yml
+  109  vim robin.yml
+  110  ansible-playbook robin.yml 
+  111  cat /etc/hosts
+  112  ls /tmp/
+  113  vagrant shh automation
+  114  vagrant ssh automation
+  115  vim flash.yml
+  116  vim robin.yml
+  117  vim flash.yml
+  118  ansible-playbook flash.yml 
+  119  vim flash.yml
+  120  ansible-playbook flash.yml 
+  121  vim flash.yml
+  122  ansible-playbook flash.yml 
+  123  vim flash.yml
+  124  ansible-playbook flash.yml 
+  125  vim flash.yml
+  126  ansible-playbook flash.yml 
+  127  vim flash.yml
+  128  vim robin.yml
+  129  vim flash.yml
+  130  ansible-playbook flash.yml 
+  131  vim flash.yml
+  132  ansible-playbook flash.yml 
+  133  vim flash.yml
+  134  ansible-playbook flash.yml 
+  135  vim flash.yml
+  136  ansible-playbook flash.yml 
+  137  vim flash.yml
+  138  ansible-playbook flash.yml 
+  139  vim flash.yml
+  140  ansible-playbook flash.yml 
+  141  vim flash.yml
+  142  ansible-playbook flash.yml 
+  143  vim flash.yml
+  144  ansible-playbook flash.yml 
+  145  vim flash.yml
+  146  ansible-playbook flash.yml 
+  147  vim flash.yml
+  148  ansible-playbook flash.yml 
+  149  vim flash.yml
+  150  ansible-playbook flash.yml 
+  151  vim flash.yml
+  152  ansible-playbook flash.yml 
+  153  vim flash.yml
+  154  ansible-playbook flash.yml 
+  155  vim flash.yml
+  156  cd /etc/ansible/
+  157  vim ansible.cfg 
+  158  cd /etc/ansible/
+  159  ls
+  160  cd roles/
+  161  ls
+  162  cd puppet
+  163  ls
+  164  cd tasks/
+  165  ls
+  166  vim prerequisitos.yml
+  167  vim tasks.yml 
+  168  ls
+  169  vim prereq.yml
+  170  vim install_puppet.yml
+  171  vim install_puppetu.yml
+  172  ls
+  173  vim prerequisitos.yml rm -f
+  174  vim prereq.yml
+  175  ls
+  176  rm -rf install_puppet
+  177  rm -rf install_puppetu.yml 
+  178  rm -rf install_puppet.yml 
+  179  rm -rf prereq.yml 
+  180  rm -rf prerequisitos.yml
+  181  ls
+  182  rm -rf prerequisitos.yml~ 
+  183  vim tasks
+  184  rm -rf tasks.yml 
+  185  ls
+  186  vim tasks 
+  187  cd tasks 
+  188  rm -rf tasks
+  189  vim main
+  190  vim main.yml 
+  191  vim unstall_ubuntu
+  192  vim install_debian
+  193  rm -rf install_debian 
+  194  rm -rf install_ubuntu
+  195  rm -rf install_ubuntu.yml
+  196  ls
+  197  rm -rf install_ubuntu
+  198  ls
+  199  rm -rf unstall_ubuntu
+  200  ls
+  201  vim install_ubuntu.yml
+  202  vim install_debian.yml
+  203  vim prerequisitos.yml
+  204  vim install_ubuntu.yml
+  205  vim install_debian.yml
+  206  cat ../tests/test.yml 
+  207  cd ..
+  208  ls
+  209  cd tests/
+  210  vim test.yml 
+  211  cd ..
+  212  cd tasks/
+  213  cd ..
+  214  cd tests/
+  215  vim test.yml 
+  216  ansible-playbook test.yml 
+  217  cd ..
+  218  cd tests/
+  219  vmi test.yml 
+  220  vim test.yml 
+  221  cd ..
+  222  cd tasks/
+  223  ls
+  224  vim main.yml 
+  225  cd ..
+  226  cd tests/
+  227  ansible-playbook test.yml 
+  228  cd ..
+  229  cd tasks/
+  230  vim install_ubuntu.yml 
+  231  vim install_debian.yml 
+  232  cd ..
+  233  cd tests/
+  234  ansible-playbook test.yml 
+  235  cd ..
+  236  cd tasks/
+  237  ls
+  238  cat install_debian.yml 
+  239  mv install_{debian,centos}.yml 
+  240  ls
+  241  cd ../tests/
+  242  ansible-playbook test.yml 
+  243  puppet --version
+  244  puppet resource package ccze
+  245  puppet resource package ccze ensure=present
+  246  tail /var/log/syslog
+  247  tail -f /var/log/syslog | ccze
+  248  puppet resource user joker ensure=present shell=/bin/bash managehome=true
+  249  puppet resource package puppetserver ensure=present
+  250  cd /etc/puppetlabs/
+  251  ls
+  252  free -h
+  253  vim /etc/default/puppetserver 
+  254  puppet resource service puppetserver enable=true ensure=running
+  255  ss -lntp
+  256  ls
+  257  vim speedy.pp
+  258  puppet aplly speedy.pp
+  259  puppet apply speedy.pp
+  260  md5sum /opt/memfree
+  261  vim /opt/memfree 
+  262  puppet apply speedy.pp
+  263  vim /opt/memfree 
+  264  cd /etc/puppetlabs/
+  265  ls
+  266  cd puppet
+  267  ls
+  268  vim puppet.conf 
+  269  puppet config print 
+  270  cd ..
+  271  ls
+  272  cd code/
+  273  ls
+  274  cd modules
+  275  ls
+  276  cd ..
+  277  ls
+  278  puppetserver ca list --all
+  279  puppet agent -t --server devops.salas4linux.com.br
+  280  apt install git
+  281  apt update 
+  282  mkdir cyborg
+  283  cd cyborg/
+  284  git init
+  285  ls -a
+  286  cd .git/
+  287  ls
+  288  cd ..
+  289  git config user.name "Gledilson"
+  290  git config user.mail "gledilsonavelar@hotmail.com"
+  291  cat .git/config 
+  292  git config --global user.name "gledilson"
+  293  git config --global user.email "gledilsonavelar@hotmail.com"
+  294  > README.md
+  295  ls
+  296  vim README.md 
+  297  vim README.md git status 
+  298  git status 
+  299  git add README.md 
+  300  git status 
+  301  git commit -m "arquivo README - Criado"
+  302  vim README.md 
+  303  git add README.md 
+  304  vim README.md 
+  305  git commit -m "arquivo README - Criado"
+  306  git status 
+  307  git commit -m "arquivo README - Criado"
+  308  git add README.md 
+  309  git commit -m "arquivo README - Criado"
+  310  git status 
+  311  vim README.md 
+  312  vim donna_troy.sh
+  313  git add donna_troy.sh 
+  314  git commit -m "shell script"
+  315  bash donna_troy.sh 
+  316  vim donna_troy.sh
+  317  git status
+  318  git commit -a -m "add"
+  319  git status
+  320  git add .
+  321  git commit -m "all"
+  322  git status 
+  323  ls
+  324  sudo su -
+  325  ls
+  326  cd cyborg/
+  327  git status
+  328  git remote add bruce https://github.com/Gledilson/Cyborg.git
+  329  git remote -
+  330  git remote -v
+  331  git push bruce master 
+  332  ls
+  333  cd ..
+  334  ls
+  335  cd cyborg/
+  336  ls
+  337  vim README.md 
+  338  CD ..
+  339  cd ..
+  340  mkdir infraagil
+  341  cd infraagil/
+  342  git init
+  343  cp -r /root/playbooks/ .
+  344  cp -r /etc/ansible/ .
+  345  cp -r /etc/puppetlabs/ .
+  346  history > historico_aula 
